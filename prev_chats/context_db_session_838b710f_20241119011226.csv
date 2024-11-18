@@ -1,0 +1,44 @@
+query,response
+info on bitcoin solana and tron,"Based on the provided data, here is the information on Bitcoin, Solana, and Tron:
+
+**Bitcoin**
+
+* Rank: 1
+* Symbol: BTC
+* Name: Bitcoin
+* Supply: 19,784,015.0000000000000
+* Max Supply: 21,000,000.0000000000
+* Market Cap USD: $17,876,969,218.79418534754708485
+* Volume USD 24hr: $19,566,818,687.5954169740054763
+* Price USD: $90,360.6761412151099499
+* Change Percent 24hr: 0.4530582224520630
+* VWAP 24hr: $90,817.2025211262295301
+* Explorer: https://blockchain.info/
+
+**Solana**
+
+* Rank: 4
+* Symbol: SOL
+* Name: Solana
+* Supply: 474,583,067.7457851000000000
+* Max Supply: None
+* Market Cap USD: $112,264,816,431.1697239084315362
+* Volume USD 24hr: $27,610,820,769.0599970748694227
+* Price USD: $236.5546182766584343
+* Change Percent 24hr: 1.1191293111150208
+* VWAP 24hr: $240.5189794897898105
+* Explorer: https://explorer.solana.com/
+
+**Tron**
+
+* Rank: 11
+* Symbol: TRX
+* Name: TRON
+* Supply: 86,370,396,221.0533900000000000
+* Max Supply: None
+* Market Cap USD: $17,527,395,107.0503908825827440
+* Volume USD 24hr: $33,407,234.1241022821572501
+* Price USD: $0.2029329014792451
+* Change Percent 24hr: 3.3048195692247185
+* VWAP 24hr: $0.2022846783894198
+* Explorer: https://tronscan.org/#/"

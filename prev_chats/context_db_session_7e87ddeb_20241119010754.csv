@@ -1,0 +1,72 @@
+query,response
+hey,"It seems like you forgot to provide a query. Please provide the actual query you'd like me to answer, and I'll do my best to help!"
+give me price of solana,"According to the provided data, the price of Solana (SOL) is `235.8791431616654638` USD."
+what is its symbol,"According to the data, the symbol of Solana is 'SOL'."
+give me info on eth,"Based on the provided data, here's the information about Ethereum (ETH):
+
+* Rank: 2
+* Symbol: ETH
+* Name: Ethereum
+* Supply: 120,424,008.02826612 (approximately)
+* Market Capitalization (USD): $374,464,719,324.22
+* 24-hour Trading Volume (USD): $11,343,520,584.98
+* Current Price (USD): $3,109.55
+* 24-hour Change: 0.7993019676366739%
+* 24-hour VWAP (Volume Weighted Average Price): $3,109.45
+* Explorer: https://etherscan.io/"
+who is ronaldo,"I'm not aware of any information about a person named ""Ronaldo"" in the provided coin data. The coin data is empty, so there is no information to draw from. If you meant to ask about a different Ronaldo, could you please provide more context or clarify which Ronaldo you are referring to?"
+give me comparison of all the crypos mentioned previosly,"I apologize, but since there is no data provided, I can't give you a comparison of any crypos. The data is empty, ""{}"", which means there is no information to compare."
+give me comparison of all crypto currencies i have mentioned till now,"Based on the data provided, here is a comparison of the two cryptocurrencies mentioned:
+
+**Ethereum (ETH)**
+
+* Rank: 2
+* Symbol: ETH
+* Name: Ethereum
+* Supply: 120,424,008,028.26612
+* Market Cap (USD): $374,716,311,442.86
+* Volume (USD) 24hr: $11,354,279,291.81
+* Price (USD): $3,111.64
+* Change (24hr): 0.7747518618816539%
+* VWAP (24hr): $3,109.45
+* Explorer: https://etherscan.io/
+
+**Solana (SOL)**
+
+* Rank: 4
+* Symbol: SOL
+* Name: Solana
+* Supply: 474,583,067.7457851
+* Market Cap (USD): $112,306,178,456.62
+* Volume (USD) 24hr: $2,758,110,489.98
+* Price (USD): $236.64
+* Change (24hr): 1.2683946243867651%
+* VWAP (24hr): $240.52
+* Explorer: https://explorer.solana.com/
+
+Here are some key differences:
+
+* **Rank**: Ethereum is ranked 2nd, while Solana is ranked 4th.
+* **Market Cap**: Ethereum has a significantly larger market capitalization than Solana, at $374 billion compared to $112 billion.
+* **Price**: Ethereum's price is significantly higher than Solana's, at $3,111.64 compared to $236.64.
+* **Supply**: Solana has a much smaller supply than Ethereum, with 474 million coins compared to 120 billion.
+* **Volume**: Ethereum has a much higher 24-hour trading volume than Solana, at $11.35 billion compared to $2.76 billion.
+
+I hope this helps! Let me know if you have any further questions."
+thanks!,"You're welcome! However, I noticed that you didn't ask a specific question. If you'd like to ask a question about the Solana coin data, I'd be happy to help!"
+muze tron ke bare me jankari dedo,"Based on the provided Coin Data, here's the information about TRON (TRX):
+
+1. **Rank**: TRON is currently ranked 11th.
+2. **Symbol**: The symbol for TRON is TRX.
+3. **Name**: The name of the coin is TRON.
+4. **Supply**: The total supply of TRON is approximately 86,370,396,221.0533900000000000.
+5. **Max Supply**: There is no maximum supply specified for TRON.
+6. **Market Capitalization**: The market capitalization of TRON is approximately $17,505,377,629.3588292439770614 USD.
+7. **24-Hour Volume**: The 24-hour trading volume of TRON is approximately $33,297,407.2730082333722444 USD.
+8. **Price**: The current price of TRON is approximately $0.2026779822169181 USD.
+9. **24-Hour Change**: The 24-hour change in TRON's price is approximately 3.2270856979774887%.
+10. **VWAP (24-Hour)**: The 24-hour volume-weighted average price of TRON is approximately $0.2022846783894198 USD.
+11. **Explorer**: You can explore TRON transactions and blocks on the official TRONScan website: https://tronscan.org/#/
+
+I hope this information helps!"
+uska symbol kya he,"According to the Coin Data, the symbol of TRON is 'TRX'."

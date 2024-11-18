@@ -95,7 +95,7 @@ Feel free to explore the demo files to see the agent in action.
 ---
 
 ## 📚 Documentation
-Detailed implementation and design documentation is available [here](./docs/README.md).
+Detailed implementation and design documentation is available [here](./docs/documentation.md).
 
 ---
 

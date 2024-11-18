@@ -55,7 +55,7 @@ def handle_user_input(user_input: str) -> str:
         coin_data = process_user_query(translated_query, context)
 
         # Step 4: Generate response using LLM
-        final_response = generate_final_response(coin_data, translated_query, context)
+        final_response = generate_final_response(coin_data, translated_query)
 
         # Step 5: Save query and response for context
         add_query_to_context(translated_query, final_response)  # Uses session-specific DB

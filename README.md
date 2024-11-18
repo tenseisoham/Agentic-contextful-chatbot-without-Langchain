@@ -1,7 +1,7 @@
 
 # Cryptocurrency AI Agent Assignment
 
-[![Architecture](./assets/architecture.png)](./assets/architecture.jpg)
+[![Architecture](./assets/architecture.png)](./assets/architecture.JPG)
 
 This repository contains my submission for the AI Agent Assignment, designed to demonstrate the implementation of a cryptocurrency chatbot with Together AI's LLaMA 3.1 8B model. It fetches live cryptocurrency prices, handles multilingual user queries, and maintains conversational context.
 

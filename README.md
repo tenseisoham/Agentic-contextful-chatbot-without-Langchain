@@ -11,9 +11,10 @@ This repository contains my submission for the AI Agent Assignment, designed to 
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Setup Instructions](#setup-instructions)
-4. [Documentation](#documentation)
-5. [Limitations](#limitations)
-6. [Acknowledgments](#acknowledgments)
+4. [Demos](#demos)
+5. [Documentation](#documentation)
+6. [Limitations](#limitations)
+7. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -23,6 +24,7 @@ This project demonstrates:
 - Use of **Public Cryptocurrency APIs** to fetch real-time cryptocurrency prices.
 - Multilingual input handling by translating non-English queries into English while maintaining all responses in English.
 - Session-based context management to preserve conversational flow and prevent cross-session context collisions.
+  
 
 ---
 
@@ -78,6 +80,17 @@ After updating the API keys, launch the application:
 ```bash
 streamlit run streamlit_app.py
 ```
+
+---
+
+
+## 📂 Demos
+All performed demos are available in the [`demo/`](./demo/) folder. These demos showcase the AI agent's capabilities, including:
+- Handling cryptocurrency price queries.
+- Responding to multilingual inputs.
+- Maintaining conversational context across sessions.
+
+Feel free to explore the demo files to see the agent in action.
 
 ---
 

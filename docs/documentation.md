@@ -112,3 +112,97 @@ add_query_to_context(translated_query, final_response)
 4. **Response Generation**: Use the LLM to generate context-aware, concise responses.
 5. **Context Storage**: Store the query and response for future interactions.
 
+---
+
+## Functions overview
+---
+
+## 📂 `llm_agent.py`
+
+### Functions:
+#### 1. `extract_coin_names(user_query: str) -> list`
+- **Description**: Extracts cryptocurrency names from the user's query using the Together AI API and returns them in a list.
+- **Parameters**:
+  - `user_query` (str): The user's input query.
+- **Returns**:
+  - `list`: A list of extracted cryptocurrency names.
+- **Notes**:
+  - Validates and filters cryptocurrency names against a predefined list.
+  - Uses prompt engineering to guide the LLM's response.
+
+#### 2. `generate_final_response(coin_data: dict, user_query: str, context: list) -> str`
+- **Description**: Generates the final response to the user query by processing the coin data and using the Together AI API.
+- **Parameters**:
+  - `coin_data` (dict): Cryptocurrency data fetched from the API.
+  - `user_query` (str): The original query from the user.
+  - `context` (list): Contextual information from previous interactions.
+- **Returns**:
+  - `str`: The AI-generated response.
+
+---
+
+## 📂 `streamlit_app.py`
+
+### Functions:
+#### 1. `handle_user_input(user_input: str) -> str`
+- **Description**: Processes user input from the Streamlit app, handles context, and returns the AI response.
+- **Parameters**:
+  - `user_input` (str): The query input from the user.
+- **Returns**:
+  - `str`: The chatbot's response to the query.
+
+#### 2. `initialize_session_state() -> None`
+- **Description**: Initializes Streamlit session state variables for chat history and context.
+- **Notes**:
+  - Ensures unique sessions for each user interaction.
+
+---
+
+## 📂 `query_processor.py`
+
+### Functions:
+#### 1. `process_user_query(user_query: str, context: list) -> dict`
+- **Description**: Processes the user's query by extracting cryptocurrency names, fetching their data, and considering the context.
+- **Parameters**:
+  - `user_query` (str): The user's input query.
+  - `context` (list): Contextual data from previous queries and responses.
+- **Returns**:
+  - `dict`: A dictionary of coin data for the cryptocurrencies mentioned in the query.
+
+---
+
+## 📂 `context_manager.py`
+
+### Functions:
+#### 1. `add_query_to_context(query: str, response: str) -> None`
+- **Description**: Adds the query and its response to the session's context database.
+- **Parameters**:
+  - `query` (str): The user's query.
+  - `response` (str): The chatbot's response.
+- **Notes**:
+  - Updates both the vector database and CSV backup.
+
+#### 2. `retrieve_context_for_query(query: str, top_k: int = 3) -> list`
+- **Description**: Retrieves the most relevant past queries and responses for a given query.
+- **Parameters**:
+  - `query` (str): The user's current query.
+  - `top_k` (int): The number of most relevant context entries to retrieve (default: 3).
+- **Returns**:
+  - `list`: A list of dictionaries containing previous queries and responses.
+
+---
+
+## 📂 `crypto_api.py`
+
+### Functions:
+#### 1. `fetch_coin_data(coin_name: str) -> dict`
+- **Description**: Fetches real-time cryptocurrency data for a given coin using a public API.
+- **Parameters**:
+  - `coin_name` (str): The name of the cryptocurrency to fetch data for.
+- **Returns**:
+  - `dict`: Data about the requested cryptocurrency, or `None` if the fetch fails.
+- **Notes**:
+  - Includes retry logic for handling API call failures.
+
+
+

@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 # API key for Lecto
 LECTO_API_KEY = "LECTO_API_KEY" # please use my lecto api key listed down for language translation
-# Use this as the key : QPKAF3-ANCM7VR-H3QT99G-3RRYF6H
+
 def detect_and_translate(text: str, target_language: str = "en") -> str:
     """
     Detects the language of the given text and translates it to English if necessary.

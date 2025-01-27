@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 # Set the API key for Groq
 os.environ["TOGETHER_API_KEY"] = "TOGETHER_API_KEY" # add your together api key
-# my api key - if needed - 413ac117da2566fb5dcbfbe7a6a5a2fae14b0beb39cd9ea2ac584903d5261aad (limit: $1 only)
+
 
 # Initialize the Together client
 try:

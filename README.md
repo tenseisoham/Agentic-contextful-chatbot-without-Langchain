@@ -3,7 +3,7 @@
 
 [![Architecture](./assets/architecture.JPG)](./assets/architecture.JPG)
 
-This repository contains my submission for the AI Agent Assignment, designed to demonstrate the implementation of a cryptocurrency chatbot with Together AI's LLaMA 3.1 8B model. The agent fetches live cryptocurrency prices, handles multilingual user queries, and maintains conversational context across sessions.
+This repository contains a mini project, designed to demonstrate the implementation of a cryptocurrency chatbot with Together AI's LLaMA 3.1 8B model. The agent fetches live cryptocurrency prices, handles multilingual user queries, and maintains conversational context across sessions.
 
 ---
 
@@ -14,7 +14,6 @@ This repository contains my submission for the AI Agent Assignment, designed to 
 4. [Demos](#demos)
 5. [Documentation](#documentation)
 6. [Limitations](#limitations)
-7. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -72,7 +71,7 @@ Add your API keys:
   ```
 - **Lecto API Key** in `utils/translation.py`:
   ```python
-  LECTO_API_KEY = "FQPKAF3-ANCM7VR-H3QT99G-3RRYF6H"
+  LECTO_API_KEY = "Your Lecto Key"
   ```
 
 ### 5. Launch the Streamlit Application
@@ -116,10 +115,5 @@ Detailed implementation and design documentation is available [here](./docs/docu
    - The agent successfully translates and responds in English:
    - [Example Screenshot](./assets/hindi_trial.JPG)
 
----
 
-## 🙏 Acknowledgments
-A big thanks to **Sarvam.ai** for designing this wonderful assignment. It has significantly enhanced my understanding of:
-1. Implementing API integrations and prompt engineering.
-2. Building end-to-end conversational AI agents from scratch.
 
